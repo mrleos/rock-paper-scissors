@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <div id="result"></div>
+      
+        <div class="players-container">
+        <div id="countdown">3</div>
+          <!-- Player 1 Section -->
+          <div class="player-box left-player">
+            <h2>Player 1</h2>
+            <div class="score">Score: <span id="p1-score">0</span></div>
+            <div class="choice-display">
+              <span id="p1-choice">Waiting...</span>
+            </div>
+            <div class="player-controls">
+              <div class="control-item">
+                <kbd>Q</kbd>
+                <img src="./assets/rock.png" alt="Rock">
+              </div>
+              <div class="control-item">
+                <kbd>W</kbd>
+                <img src="./assets/paper.png" alt="Paper">
+              </div>
+              <div class="control-item">
+                <kbd>E</kbd>
+                <img src="./assets/scissors.png" alt="Scissors">
+              </div>
+            </div>
+          </div>
+      
+          <!-- Player 2 Section -->
+          <div class="player-box right-player">
+            <h2>Player 2</h2>
+            <div class="score">Score: <span id="p2-score">0</span></div>
+            <div class="choice-display">
+              <span id="p2-choice">Waiting...</span>
+            </div>
+            <div class="player-controls">
+              <div class="control-item">
+                <img src="./assets/rock.png" alt="Rock">
+                <kbd>I</kbd>
+              </div>
+              <div class="control-item">
+                <img src="./assets/paper.png" alt="Paper">
+                <kbd>O</kbd>
+              </div>
+              <div class="control-item">
+                <img src="./assets/scissors.png" alt="Scissors">
+                <kbd>P</kbd>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
