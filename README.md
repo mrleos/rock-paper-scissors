@@ -35,4 +35,4 @@ A simple multiplayer Rock-Paper-Scissors game built with HTML, CSS, and JavaScri
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/rock-paper-scissors.git
+   git clone https://github.com/mrleos/rock-paper-scissors.git
